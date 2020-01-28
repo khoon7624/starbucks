@@ -84,6 +84,11 @@
 	margin: 0 auto;
 }
 
+.blind{
+	font-size: 0;
+	position: absolute;
+	left: -9999px;
+}
 
 .billboard .caption a,
 .billboard .caption a i,
@@ -110,7 +115,7 @@ header{
 	z-index: 9999;
 }
 
-header .logo{
+header h1{
 	margin-top: 25px;
 	display: inline-block;
 }
@@ -230,7 +235,7 @@ header nav ul li a:hover{
 	margin-top: 100px;
 }
 
-.video h3{
+.video h2{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -275,7 +280,7 @@ header nav ul li a:hover{
 	overflow: hidden;
 }
 
-.recent_work h3.S_title{
+.recent_work h2.S_title{
 	font-family: 'open_bold', arial;
 	font-weight: bold;
 	font-size: 30px;
@@ -487,7 +492,7 @@ footer .info span:first-child{
 #box form{
 	padding: 75px 0;
 }
-#box form span{
+#box form a{
 	display: block;
 	text-align: center;
 	color:#424242;
